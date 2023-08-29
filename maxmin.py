@@ -7,7 +7,6 @@ if (a > b):
 else:
     print(b)
 
-print("Jochua arreglando el codego")
+print("Jalo yur compiuter jas vairus")
+print("Jochua destruyendo el codego")
 print("Esto lo agregue yo (Oscar)")
-
-print("cambio post reset 1")
