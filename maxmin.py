@@ -8,5 +8,5 @@ else:
     print(b)
 
 print("Jalo yur compiuter jas vairus")
-print("Jochua arreglando el codego")
+print("Jochua destruyendo el codego")
 print("Esto lo agregue yo (Oscar)")
