@@ -1,24 +1,19 @@
 # My-very-big-Python
-Aaron - FlitzOrtiz - 1
 
-Joshua - donjosh-ua - 2
-
-Sebastian - SPad74 - 3
---------------------------------------------------------------------------------------
-1.1. Antecedentes
+## 1.1. Antecedentes
 
 LACAY requiere un software que le permita manejar:
-• Personal
-• Carta y Recetas
-• Compras y Ventas y,
-• Publicidad
+- Personal
+- Carta y Recetas
+- Compras y Ventas
+- Publicidad
 
-1.2. Manejo de Personal
+## 1.2. Manejo de Personal
 
 El software a construir tendrá un mantenimiento de cargos y de personal (crear, consultar, modificar, eliminar y reportar). Los cargos tendrán la siguiente información:
-• Identificador
-• Nombre del Cargo y,
-• Jefatura
+- Identificador
+- Nombre del Cargo
+- Jefatura
 
 Cuando un cargo puede tener personal bajo su responsabilidad, se entiende que es un cargo de Jefatura. Un ejemplo de un cargo de Jefatura podría ser el jefe de Chefs que tiene muchos Chefs a su cargo. Algunos cargos son de jefatura, otros no.
 
@@ -26,45 +21,45 @@ Note que varias personas pueden tener el mismo cargo (por ejemplo, puede haber v
 
 También se requiere un mantenimiento de Personal. Los datos de personal son:
 2
-• Cédula (validar que se trate de una cédula correcta)
-• Apellidos
-• Nombres
-• Fecha de Nacimiento
-• Dirección
-• Cargo
-• Jefe
+- Cédula (validar que se trate de una cédula correcta)
+- Apellidos
+- Nombres
+- Fecha de Nacimiento
+- Dirección
+- Cargo
+- Jefe
 
 El personal siempre tendrá un cargo, por lo tanto, se requiere que exista al menos 1 cargo creado antes de crear un personal. Siempre tendremos un Gerente General, por lo que el software por defecto deberá ya tener creado el cargo Gerente General y al personal que es el Gerente. En el Campo Jefe del Gerente, se colocará a sí mismo. Obviamente, al crear un personal, distinto al Gerente y acceder a definir su cargo o su jefe, el software debería desplegar, de alguna forma los cargos y los jefes que podrían seleccionarse, es decir los que están ya creados en el software.
 
 A veces se requiere eliminar a un personal, pero hay que tomar ciertas precauciones. Por ejemplo, si el personal A es jefe de B y de C, y si eliminamos a A, B y C no tendrían un jefe. Eso no es factible. El software debería evitar ese tipo de situaciones. Algo similar ocurriría al eliminar un cargo.
 
 El software debería generar unos reportes específicos:
-• Jefe y su personal a cargo
-• Cargos y personal con ese cargo
+- Jefe y su personal a cargo
+- Cargos y personal con ese cargo
 
-1.3. Manejo de Carta y Recetas
+## 1.3. Manejo de Carta y Recetas
 
 Una carta es un conjunto de platos y un plato se logra con un conjunto de ingredientes y una preparación.
 
 El software deberá permitir el mantenimiento de ingredientes, un ingrediente tiene los siguientes datos:
-• Identificador
-• Nombre
-• Unidad
-• Existencia (cantidad de unidades disponibles en stock)
-• Perecible
+- Identificador
+- Nombre
+- Unidad
+- Existencia (cantidad de unidades disponibles en stock)
+- Perecible
 
 También debe ser posible manejar un mantenimiento de platos(receta):
-• Identificador
-• Nombre
-• Tipo
-• Ingredientes
-• Preparación
+- Identificador
+- Nombre
+- Tipo
+- Ingredientes
+- Preparación
 
 Los ingredientes de un plato deberán seleccionarse de los existentes, además por cada ingrediente se debe indicar la cantidad que se empleará en el plato. La preparación será un texto de máximo 250 caracteres. Note que estas recetas son para la elaboración de 1 unidad del plato. En cuanto al tipo, un plato puede ser entrada, plato fuerte o postre.
 
 LACAY prepara su carta organizada por tipo de plato. El software deberá mostrar una carta digital con la lista de platos por tipo.
 
-1.4. Compras y Ventas
+## 1.4. Compras y Ventas
 
 Cada vez que se compra un producto se deberá registrar un ingreso al inventario.
 
@@ -86,7 +81,7 @@ Las transacciones de Compras y Ventas no podrán modificarse pero si eliminarse;
 
 Una Venta, guarda los platos, cliente, cupones y precio total. No se modifican ni eliminan.
 
-1.5. Publicidad
+## 1.5. Publicidad
 
 Una campaña consiste de un nombre, un empleado encargado de ella, el costo de la campaña, el tipo y las fecha de inicio y finalización.
 
